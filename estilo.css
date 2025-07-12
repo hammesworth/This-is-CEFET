@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.topo {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(bokeh_car_lights_bg.jpg);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links li a.signup-btn {
+  background: white;
+  color: #111;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.topo-conteudo {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.topo-conteudo h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.topo-conteudo p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 20px;
+  background: #00bfff;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+}
+
+.recursos {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cartaos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.cartao {
+  background: white;
+  padding: 20px;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.icon {
+  font-size: 2rem;
+  color: #00bfff;
+  margin-bottom: 15px;
+}
+
+.icon.green { color: #88cc00; }
+.icon.red { color: #e91e63; }
+
+.testimonials {
+  background: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.perfis {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 30px 0;
+}
+
+.perfil {
+  text-align: center;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px;
+  font-size: 4rem;
+  color: white;
+}
+
+
+.footer {
+  background: #2c2c2c;
+  color: #aaa;
+  padding: 50px 20px 20px;
+}
+
+.footer-cols {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.footer h4 {
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  font-size: 0.8rem;
+}
+
+.social-icons i {
+  margin: 0 8px;
+  cursor: pointer;
+}
